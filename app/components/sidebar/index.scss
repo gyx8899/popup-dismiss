@@ -1,0 +1,9 @@
+.side-nav {
+	.nav-item {
+		padding: 0 15px;
+		font-size: 24px;
+		&.active {
+			font-weight: bold;
+		}
+	}
+}

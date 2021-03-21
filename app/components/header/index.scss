@@ -1,0 +1,36 @@
+header {
+	height: 4rem;
+	width: 100%;
+	background-color: #e8e8e8;
+	color: #000;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	margin: 0 auto;
+	padding: 0 30px;
+
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.nav-item {
+			display: inline-flex;
+		}
+		a {
+			text-decoration: none;
+		}
+		.img-logo {
+			width: 4rem;
+		}
+		.menu-title {
+			padding: 0 15px;
+			font-size: 24px;
+			color: rgb(211, 46, 45);
+		}
+		.menu-profile > .img-logo {
+			width: 40px;
+			border-radius: 10px;
+		}
+	}
+}
