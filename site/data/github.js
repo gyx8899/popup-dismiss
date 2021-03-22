@@ -1,4 +1,4 @@
 export default {
-	name: 'npm-template',
-	href: 'https://github.com/gyx8899/npm-template',
+	name: 'popup-dismiss',
+	href: 'https://github.com/gyx8899/popup-dismiss',
 };

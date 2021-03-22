@@ -1,7 +1,7 @@
 {
-  "name": "@daybyday/npm-template",
-  "version": "1.0.3",
-  "description": "Template for npm package",
+  "name": "@daybyday/popup-dismiss",
+  "version": "0.0.0",
+  "description": "JS Class: popup element and dismiss it in everywhere.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
@@ -11,20 +11,20 @@
     "lint": "eslint src/**/*.js",
     "test": "cross-env BABEL_ENV=test jest --passWithNoTests --coverage",
     "publish": "publish.sh",
-    "git-push": "cd ../yx-env && git-push.sh npm-template"
+    "git-push": "cd ../yx-env && git-push.sh popup-dismiss"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gyx8899/npm-template.git"
+    "url": "https://github.com/gyx8899/popup-dismiss.git"
   },
   "keywords": [
-    "template",
-    "package",
+    "popup",
+    "dismiss",
     "commonjs",
     "umd",
     "esm"
   ],
-  "author": "Kate Kuo",
+  "author": "Kyle Kuo",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.7.7",
@@ -94,20 +94,19 @@
       "\\.(css|scss)$": "identity-obj-proxy"
     },
     "testPathIgnorePatterns": [
-      "<rootDir>/tests",
-      "<rootDir>/dist"
+      "<rootDir>/node_modules/",
+      "<rootDir>/dist/"
     ],
     "setupFilesAfterEnv": [
-      "<rootDir>/tests/jest/config.js"
-    ],
-    "transformIgnorePatterns": [
-      "<rootDir>/node_modules/(?!(@babel))"
-    ],
-    "passWithNoTests": true
+      "<rootDir>/jest.setup.js"
+    ]
   },
   "browserslist": {
     "browsers": [
       "last 2 Explorer versions"
     ]
+  },
+  "dependencies": {
+    "@daybyday/event": "0.0.1-beta.0"
   }
 }

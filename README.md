@@ -1,5 +1,6 @@
-# npm template
-NPM package project template
+# PopupDismiss
+
+JS Class: popup element and dismiss it in everywhere.
 
 ## Publish steps
 
@@ -13,16 +14,19 @@ npm login
 ```
 
 - Publish in your git gui or click publish.sh bash file
+
 ```shell script
 npm publish
 ```
 
 ## Install
+
 ```cmd
-npm install @daybyday/xxx --save
+npm install @daybyday/popup-dismiss --save
 ```
 
 ## Importing
+
 ```jsx
-import xxx from '@daybyday/xxx';
+import xxx from '@daybyday/popup-dismiss';
 ```

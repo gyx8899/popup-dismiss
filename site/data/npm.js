@@ -1,4 +1,4 @@
 export default {
-	name: 'npm-template',
-	href: 'https://www.npmjs.com/package/@daybyday/npm-template',
+	name: 'popup-dismiss',
+	href: 'https://www.npmjs.com/package/@daybyday/popup-dismiss',
 };
