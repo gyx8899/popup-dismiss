@@ -1,0 +1,53 @@
+/* Demo's CSS here */
+.trigger-parent {
+	color: #000000;
+	font-size: 24px;
+	cursor: pointer;
+	background-color: #006bb6;
+}
+.trigger-parent:focus {
+	background-color: #006bb6;
+}
+section {
+	position: relative;
+}
+.popup-list {
+	display: none;
+}
+.popup-list.open {
+	display: block;
+	width: 100%;
+	position: absolute;
+	background-color: white;
+	list-style: none;
+	margin: 0;
+	border: 2px solid #006bb6;
+	border-radius: 3px;
+	z-index: 2;
+}
+.dropdown-list {
+	width: 250px;
+	height: 0;
+	position: absolute;
+	background-color: white;
+	list-style: none;
+	margin: 0;
+	border: 2px solid #006bb6;
+	border-radius: 3px;
+	z-index: 2;
+	transform: scaleY(0);
+	transform-origin: top;
+	transition: 200ms cubic-bezier(0, 0.635, 0.755, 0.97) 10ms;
+	max-height: calc(100vh - 72px);
+}
+.dropdown-list.open {
+	transform: scaleY(1);
+	overflow: auto;
+	height: auto;
+}
+.dismiss-false {
+	background-color: graytext !important;
+}
+.dismiss-true {
+	background-color: #1ccacd !important;
+}

@@ -23,6 +23,11 @@ new WebpackDevServer(
 		plugins: [
 			new webpack.HotModuleReplacementPlugin(),
 			new HtmlWebpackPlugin(),
+			new webpack.ProvidePlugin({
+				$: 'jquery',
+				jQuery: 'jquery',
+				'window.jQuery': 'jquery',
+			}),
 		],
 		resolve: {
 			extensions: ['.js', '.jsx'],
