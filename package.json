@@ -1,6 +1,6 @@
 {
   "name": "@daybyday/popup-dismiss",
-  "version": "0.0.0",
+  "version": "0.0.1-beta.0",
   "description": "JS Class: popup element and dismiss it in everywhere.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
