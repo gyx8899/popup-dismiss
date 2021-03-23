@@ -1,3 +1,4 @@
+/* eslint-disable */
 export function findParent(element, selector) {
 	let matches = (el, selector) => {
 		return (

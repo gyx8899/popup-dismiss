@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Event from '@daybyday/event';
 import { addClass, removeClass } from './ClassName';
 import {
