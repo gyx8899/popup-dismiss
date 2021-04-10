@@ -108,6 +108,6 @@
     ]
   },
   "dependencies": {
-    "@daybyday/event": "0.0.1-beta.0"
+    "@daybyday/event": "^1.0.0"
   }
 }
