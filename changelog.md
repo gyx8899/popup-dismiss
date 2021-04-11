@@ -1,3 +1,7 @@
+# [1.0.0](https://github.com/gyx8899/popup-dismiss/compare/v0.0.1-beta.0...v1.0.0) (2021-04-11)
+
+
+
 ## [0.0.1-beta.0](https://github.com/gyx8899/popup-dismiss/compare/3603493d967866f9813810fe5c4aa1e0ff259df8...v0.0.1-beta.0) (2021-03-23)
 
 
