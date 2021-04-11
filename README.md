@@ -33,5 +33,5 @@ import xxx from '@daybyday/popup-dismiss';
 
 ## Examples
 
-- 线上 demo
+- Online demo
 <https://gyx8899.github.io/YX-JS-ToolKit/pages/popupDismiss/jsPlugin/index.html> Demo: popup and dismiss everywhere
